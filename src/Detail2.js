@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import logo2 from "./img/logo2.png";
 import logo1 from "./img/logo.jpg";
-import Comment from "./Comment";
 
 const Detail2 = () => {
   const [likeCount, setLikeCount] = useState(0);
